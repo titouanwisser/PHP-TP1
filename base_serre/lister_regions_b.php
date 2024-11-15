@@ -15,6 +15,10 @@ $stmt->execute();
 // Parcours des enregistrements retournés par la requête : premier, deuxième…
 
 echo "<table border=2>";
+echo "<tr>";
+echo '<td>', "N° Région", '</td>';
+echo '<td>', "Nom Région", '</td>';
+echo "</tr>";
 
 while($enregistrement = $stmt->fetch())
 
